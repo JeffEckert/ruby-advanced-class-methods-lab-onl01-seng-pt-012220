@@ -16,6 +16,6 @@ def self.create
 end
 
 def self.new_by_name
-  self.find
+  self.find{ |song| 
 end
 end
