@@ -18,4 +18,5 @@ end
 def self.new_by_name
   self.find{|song| song.name == name}
 end
+
 end
