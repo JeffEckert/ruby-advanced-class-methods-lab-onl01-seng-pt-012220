@@ -10,7 +10,6 @@ class Song
     self.class.all << self
   end
 def self.create
-  self.all.include?(name, artist_name)
-  << @@all
+  
 
 end
